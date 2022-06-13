@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&family=Work+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0 auto;
+}
+
+#logo{
+    width: 268px;
+    height: auto;}
+
+.drop-menu {
+    display:none;
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    width: 252px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ABABAB;
+    
+}
+
+nav{
+    width: 252px;
+    height: 100% ;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height:70px ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+li{
+    list-style: none;
+}
+.menu-item:hover{
+    color: green;
+}
+.menu-item:hover .drop-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 2px 2px 2px black;
+    width: 220px;
+    height: 220px;
+    margin-left: -170px;
+    position: absolute;
+}
+.drop-menu-item{
+    color: #ABABAB;
+    width:220px;
+    height: 100%;
+    margin-left: -40px;
+    padding: 0px 20px;
+}
+
+#logo2{
+    width: 50px;
+    height: auto;
+margin-top: 100px;
+}
+h1{height: 44,2;
+    width: 975px;
+    font-family: "work sans",Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 43px;
+    margin: 60px 1 34px 0;
+    color: #00B39B;
+    margin-top: 30px;
+}
+#paragraphs{
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    height: 112px;
+    color: #747474;
+    margin: 13px 0 13px 0;
+    display: flex;
+    text-align: left; 
+    width: 75%;  
+}
+#paragraphs p {
+    width: 477px ;
+    height: 112px;
+}
+
+#block1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-content: center; 
+    align-items: center;
+}
+#blocks{
+    display: flex;
+    flex-direction: row;
+}
+
+#b1{
+    background-color: #0cceb5;
+  border: 30px #00c3a5;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  width: 345px;
+  height: 311px;
+  margin: 25px;
+ 
+}
+
+#b2{
+    background-color: #508fe2;
+    border: 30px #508fe2;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    width: 345px;
+    height: 311px;
+    margin: 25px;
+
+}
+
+#b3{
+    background-color: #2c3743;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    width: 345px;
+    height: 311px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #b3 > select {
+      background-color: #2c3743;
+      width: 200PX;
+      color: white;
+      text-decoration: underline;
+  }
+  
+  .sponsors{
+    color: #838887;
+    margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+  align-items: center;
+      flex-direction: row;
+      
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&family=Work+Sans:ital,wght@0,100;1,100;1,200&display=swap');
+  #weareGC {
+    font-family: "Work Sans", Arial, sans-serif;
+    width: 300px;
+    padding: 2% 8%;
+    color: #00B39B;
+  }
+  #sponlogo {
+      display: flex;
+      flex-wrap: wrap;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+    justify-content: space-between;
+    width: 1200px;
+  }
+.acheives{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: url(https://cdn.discordapp.com/attachments/851355618643017740/904440936740839454/Sans_titre-2.png);
+    background-position-y: bottom;
+
+}
+.acheives h1{
+    padding-top: 15px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    padding-left: 30px;
+    width: 65%;
+}
+.box4 {
+    padding-top: 20px;
+    border: #00c3a5;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .b13 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+  
+  .b24 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .box {
+    background-color: #ffffff;
+    height: 220px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }  
+  .box h4 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    margin: 2px;
+    width: 70%;
+  }
+  
+  .box img {
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  
+  .box p {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    width: 100%;
+    padding: 5px;
+  }
+  .intoffice{
+      display:flex ;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+width: 100%;      margin: 0px 20px;
+  }
+
+#tt {
+    width: 600px;
+    text-align: center;
+}
+
+.intoffice p {
+    width: 550px;
+    text-align: center;
+    margin: 20px;
+}
+
+  .locations2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .line1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .line2 {
+    display: flex;
+    flex-direction: row;
+  }
+  #Warsaw {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  .locations:hover {
+    box-shadow: 10px 10px 10px 10px #2c3743;
+  }
+  .SOimg {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  #Barcelona {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  #istanbul {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  #Rome {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  #Bologna {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  #Curitiba {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  #Mexico {
+    background-color: #ffffff;
+    border: 30px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+    height: 370px;
+    margin: 25px;
+  }
+  
+  button {
+    color: #ffffff;
+    background-color: #508fe2;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    cursor: pointer;
+    width: 104px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: #508fe2;
+  }
+  
+  .locations h4 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .SO {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 30px;
+  }
+  
+  #lastbutton {
+    color: #ffffff;
+    background-color: #508fe2;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    cursor: pointer;
+    width: 204px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: #508fe2;
+  }
+  
+  footer h4 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: rgb(51, 51, 51);
+  }
+  footer p {
+    margin-top: 50px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171);
+    width: 50%;
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .sponlogo > a > img {
+  
+    filter: grayscale(100%);
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+  }
+  
+  .sponlogo > a > svg {
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+  
+  fill: grey;}
+  
+  
+  .sponlogo > a > img:hover {
+    filter: grayscale(0%);
+  }
+  
+  .sponlogo > a > svg:hover {
+  
+    fill: #00c3a5;}
